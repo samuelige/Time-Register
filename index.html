@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Book Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <center class="title">Time Book Resgistration</center>
+        <div class="control">
+            <form id="form">
+                <input type="text" id="name" placeholder="Enter your name">
+                <input type="button" value="Sign In" id="btnSignIn">
+            </form>
+        </div>
+        <div class="output-container">
+            <h3>Time Book</h3>
+            <div class="output">
+                <input type="text" name="filter" id="filter" placeholder="Filter">
+                <div class="list">
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Time In</th>
+                            <th>Time Out</th>
+                            <th id="actionList">Action</th>
+                        </tr>
+                        <tbody id="mainTable">
+                            
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <button id="btnClear">Clear</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
